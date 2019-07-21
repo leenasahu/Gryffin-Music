@@ -1,0 +1,9 @@
+html {
+  background: url(../images/ProfileImage_Gryffin.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rgba(244,244,244, 0.75);
+}
