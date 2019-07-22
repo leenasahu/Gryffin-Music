@@ -6,22 +6,24 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 
+section {
+  width: 100%;
+  height: auto;
+  margin: 100px auto;
+}
+
 .container {
   position: relative;
  margin: auto;
- padding: 0 20px;
+ padding: 0 100px;
 }
 
 .BodyText {
   color: white;
-    padding-top: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
 }
 .section-title {
   color: #DE1E67;
-  padding-top: 50px;
-  padding-left: 500px;
+  padding-left: 400px;
 }
 
 .Profile-image {
@@ -33,8 +35,8 @@ p {
 
 .column {
   float: left;
-  width: 400px;
-  padding: 10px;
+  width: 300px;
+  padding: 20px;
 }
 
 .row::after {
