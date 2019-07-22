@@ -9,8 +9,18 @@ p {
 .BodyText {
   color: white;
     padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .H2 {
   color: #DE1E67;
   padding-top: 50px;
+  padding-left: 400px;
+}
+
+.Profile-image {
+  /* (About Pag_01.jpg) */
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000;
 }
