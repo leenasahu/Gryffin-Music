@@ -1,7 +1,16 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto-bold', sans-serif;
   background: #06072B;
 }
 p {
   font-family: 'Roboto', sans-serif;
+}
+
+.BodyText {
+  color: white;
+    padding-top: 50px;
+}
+.H2 {
+  color: #DE1E67;
+  padding-top: 50px;
 }
