@@ -18,6 +18,29 @@ section {
  padding: 0 100px;
 }
 
+.topnav {
+  background-color:;
+  overflow: hidden;
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  text-align: center;
+}
+
+
+.topnav a:hover {
+  color: #DE1E67;
+
+}
+
+
 .BodyText {
   color: white;
 }
