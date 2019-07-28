@@ -45,9 +45,10 @@ nav > a.active{
 }
 
 
-.BodyText {
+.body-text {
   color: white;
   font-weight: normal;
+
 }
 .section-title {
   color: #DE1E67;
@@ -116,7 +117,16 @@ ABOUT
 /*
 Tour
 */
+
 .column-text{
   color: white;
   font-weight: normal;
+}
+
+
+.th, td {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid white;
+
 }
