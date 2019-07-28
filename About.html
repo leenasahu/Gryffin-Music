@@ -1,20 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
   <title>Gryffin-Music</title>
-  <link href="./assets/stylesheets/About.css" rel="stylesheet"/>
-</head>
-<body>
-  <nav id="MainMenu"
-    <a href="active">About</a>
-    <a href="Discography.html">Discography</a>
-    <a href="Media.html">Media</a>
-    <a href="Merch.html">Merch</a>
-    <a href="Tour.html">Tours</a>
-  </nav>
+  <link rel="stylesheet" type="text/css" href="./assets/stylesheets/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/stylesheets/flexboxgrid.min.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/stylesheets/style.css" />
+  </head>
+
+  <body class="aboutpage">
+      <div class="container">
+        <div class="row">
+          <nav id="MainMenu" class="col-xs-12 col-sm-8">
+            <a class="active" href="about.html">ABOUT</a>
+            <a href="discography.html">DISCOGRAPHY</a>
+            <a href="media.html">MEDIA</a>
+            <a href="merch.html">MERCH</a>
+            <a href="tour-dates.html">TOUR DATES</a>
+          </nav>
+        </div>
+    </div>
 
 <main>
-<img src="./assets/images/ProfileImage_Gryffin.jpg" alt="ProfileImage_Gryffin"/>
+  <div class="page-banner">
+<img src="./assets/images/about/ProfileImage_Gryffin.jpg" alt="ProfileImage_Gryffin"/>
+  </div>
+
 
 <section>
   <div class="container">
@@ -41,7 +52,7 @@
   <div class="column">
     <div class= "BodyText">
     <p>
-    <img src="./assets/images/About_Page_01.jpg" alt="aboutpage01" style="width:100%">
+    <img src="./assets/images/about/About_Page_01.jpg" alt="aboutpage01" style="width:100%">
   'world' debut at the SnowGlobe Music Festival 2015
     </p>
     </div>
@@ -50,7 +61,7 @@
   <div class="column">
     <div class= "BodyText">
     <p>
-    <img src="./assets/images/About_Page_02.jpg" alt="aboutpage02" style="width:100%">
+    <img src="./assets/images/about/About_Page_02.jpg" alt="aboutpage02" style="width:100%">
     Biggest remixes from the last year, such as his remix of Tove Lo’s “Talking Body,” Maroon 5’s “Animals,” Years & Years’ “Desire,”
     </P>
     </div>
@@ -58,7 +69,7 @@
   <div class="column">
     <div class= "BodyText">
     <p>
-    <img src="./assets/images/About_Page_03.jpg" alt="aboutpage03" style="width:100%">
+    <img src="./assets/images/about/About_Page_03.jpg" alt="aboutpage03" style="width:100%">
      “Heading Home” which immediately became #1 on Spotify’s Global Viral 50 chart, US Viral Chart, and accumulated a million plays in one week
      </P>
      </div>
@@ -67,4 +78,9 @@
 </section>
 
 </body>
+
+<script src="./assets/javascripts/jquery-3.3.1.min.js"></script>
+<script src="./assets/javascripts/lodash.js"></script>
+<script src="./assets/javascripts/mobile-menu.js"></script>
+
 </html>
