@@ -46,6 +46,9 @@ nav > a.active{
 
 
 .body-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
   color: white;
   font-weight: normal;
 }
@@ -55,6 +58,7 @@ nav > a.active{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 
@@ -114,6 +118,8 @@ Tour
 */
 
 .column-text{
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
   color: white;
   font-weight: normal;
 }
