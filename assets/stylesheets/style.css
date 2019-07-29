@@ -132,11 +132,17 @@ table {
 
 .button {
   background-color: #DE1E67;
-  border: none;
+  border: 1px solid #DE1E67;
+  border-radius: 2px;
   color: white;
   padding: 5px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 15px;
+}
+
+
+a: link {
+  text-decoration: none;
 }
