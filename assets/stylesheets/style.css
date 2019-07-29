@@ -48,8 +48,8 @@ nav > a.active{
 .body-text {
   color: white;
   font-weight: normal;
-
 }
+
 .section-title {
   color: #DE1E67;
   display: flex;
@@ -106,11 +106,6 @@ ABOUT
   justify-content: center;
 }
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
 
 
 
@@ -123,10 +118,14 @@ Tour
   font-weight: normal;
 }
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
 
 .th, td {
-  padding: 15px;
+  padding: 20px;
   text-align: center;
   border-bottom: 1px solid white;
-
 }
