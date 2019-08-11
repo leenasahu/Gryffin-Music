@@ -172,3 +172,16 @@ Media
   margin-top: 8px;
   vertical-align: middle;
 }
+
+
+/*
+discography
+*/
+
+.column-spotify {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
