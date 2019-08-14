@@ -1,0 +1,46 @@
+body {
+  font-family: 'Roboto-bold', sans-serif;
+  background: #06072B;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+section {
+  width: 100%;
+  height: auto;
+  margin: 100px auto;
+}
+
+.container {
+  position: relative;
+ margin: auto;
+ padding: 0 100px;
+}
+
+.BodyText {
+  color: white;
+}
+.section-title {
+  color: #DE1E67;
+  padding-left: 400px;
+}
+
+.Profile-image {
+  width: 500px;
+  height: 200px;
+  border: 1px solid #000;
+}
+
+
+.column {
+  float: left;
+  width: 300px;
+  padding: 20px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
